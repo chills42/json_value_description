@@ -1,5 +1,10 @@
 [package]
 name = "json_value_description"
+description = "Json Value Description is a package for outputting a description of unstructured data parsed by Serde Json into a Value."
+repository = "https://github.com/chills42/json_value_description"
+readme = "README.md"
+categories = ["data-structures", "development-tools::debugging"]
+license = "MIT OR APACHE"
 version = "0.1.0"
 authors = ["Craig Hills <chills@gmail.com>"]
 edition = "2018"
