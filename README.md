@@ -7,7 +7,7 @@
 
 ```toml
 [dependencies]
-json_value_description = "0.1"
+json_value_description = "0.2"
 ```
 ## License
 

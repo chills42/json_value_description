@@ -1,3 +1,5 @@
+//! Json Value Description is a package for outputting a description of unstructured data parsed by Serde Json into a Value.
+#![forbid(unsafe_code)]
 extern crate serde_derive;
 extern crate serde;
 extern crate serde_json;
@@ -15,6 +17,7 @@ fn json_type(val: &Value) -> &'static str {
     }
 }
 
+/// Attempts to describe the schema of a json value that is provided.
 pub fn json_object_description(json_value: &Value) -> String {
     if let Some(object) = json_value.as_object() {
         let mut obj_key = vec![];
